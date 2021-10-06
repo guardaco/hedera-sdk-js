@@ -7,7 +7,7 @@ node_modules/
 # built files
 # we currently run babel over the JavaScript before shipping
 # this enables us to easily support older versions of Node
-lib/
+
 test/lib/
 
 # generated documentation

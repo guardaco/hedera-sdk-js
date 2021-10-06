@@ -491,10 +491,10 @@
     js-base64 "^3.6.1"
     tweetnacl "^1.0.3"
 
-"@hashgraph/proto@1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@hashgraph/proto/-/proto-1.1.7.tgz#b5f1f6219660c9e0d8f57ec26b8eb905fe0e4139"
-  integrity sha512-jxq8BuBcO7v+SjPB4s5Ghsm1TlXUumQG2Dz0w4amQAd62/a4MLQPLA78oa76MJjJcSjxVaz+tKZNfsbQPRBdKw==
+"@hashgraph/proto@1.1.8":
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/@hashgraph/proto/-/proto-1.1.8.tgz#81169222aeb59f1a19e582fc2aa2e5f0c7880761"
+  integrity sha512-SCKw45a7rX99o6szdB2orJzVSRfTMHNNiTb7FPxOGXyEnXilIjng7S33aMxS9Q34xQLU/fDBrkWiSpn1boZybg==
   dependencies:
     protobufjs "^6.11.2"
 
@@ -4803,6 +4803,11 @@ js-base64@^3.6.1:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.6.1.tgz#555aae398b74694b4037af1f8a5a6209d170efbe"
   integrity sha512-Frdq2+tRRGLQUIQOgsIGSCd1VePCS2fsddTG5dTCqR0JHgltXWfsxnY0gIXPoMeRmdom6Oyq+UMOFg5suduOjQ==
+
+js-sha512@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/js-sha512/-/js-sha512-0.8.0.tgz#dd22db8d02756faccf19f218e3ed61ec8249f7d4"
+  integrity sha512-PWsmefG6Jkodqt+ePTvBZCSMFgN7Clckjd0O7su3I0+BW2QWUTJNzjktHsztGLhncP2h8mcF9V9Y2Ha59pAViQ==
 
 js-tokens@^4.0.0:
   version "4.0.0"
