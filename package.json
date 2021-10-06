@@ -59,7 +59,6 @@
         "lint:format": "prettier src 'test/unit/*.js' 'test/integration/*.js' '*.json' 'src/*.js' --check",
         "lint:js": "eslint --fix 'src/**/*.js' 'test/integration/**/*.js' 'test/unit/**/*.js'",
         "format": "prettier src 'test/unit/*.js' 'test/integration/*.js' '*.json' 'src/*.js' --write",
-        "prepare": "run-s compile:js lint:types",
         "bundle:browser": "vite -c vite.config.cjs build",
         "test": "run-s test:node test:browser",
         "test:node": "env HEDERA_SDK_TEST='' run-s test:unit:node test:integration:node",
