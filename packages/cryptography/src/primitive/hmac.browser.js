@@ -20,7 +20,6 @@ export async function hash(algorithm, secretKey, data) {
         typeof secretKey === "string" ? utf8.encode(secretKey) : secretKey;
     const value = typeof data === "string" ? utf8.encode(data) : data;
 
-    try {
         const key_ = await window.crypto.subtle.importKey(
             "raw",
             key,
@@ -35,7 +34,4 @@ export async function hash(algorithm, secretKey, data) {
         return new Uint8Array(
             await window.crypto.subtle.sign("HMAC", key_, value)
         );
-    } catch {
-        throw new Error("Fallback if SubtleCrypto fails is not implemented");
-    }
 }
